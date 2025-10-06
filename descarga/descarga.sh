@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Valores por defecto
 URL_DEFAULT="cdn.mindmajix.com/blog/images/what-is-linux-120619.png"
@@ -104,7 +104,7 @@ FILE_NAME="$(basename "$URL_DEFAULT")"
 # Descargar con wget (silencioso si no verbose)
 if [ "$VERBOSE" -eq 1 ]; then
   log "Descargando (verbose): $URL_DEFAULT -> $FILE_NAME"
-  wget "$URL" -O "$FILE_NAME"
+  wget "$URL_DEFAULT" -O "$FILE_NAME"
 else
   log "Descargando: $URL_DEFAULT -> $FILE_NAME"
   wget -q "$URL_DEFAULT" -O "$FILE_NAME"
