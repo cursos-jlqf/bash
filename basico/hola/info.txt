@@ -1,0 +1,4 @@
+Este es el archivo info.txt
+Creado por: jlqf
+Ruta actual: /home/jlqf/Documentos/cursos/UAM/2025/Bash/ejemplos-basicos/basico/hola
+Fecha: 2025-10-06 09:05:17

@@ -2,6 +2,15 @@
 # Demostración de estructuras de repetición en Bash
 set -euo pipefail
 
+#-e
+#Sale del script si un comando devuelve distinto de 0 (error). (errexit)
+#-u
+#Trata como error usar una variable no definida. (nounset)
+#-o pipefail
+#Hace que una pipeline falle si cualquier comando dentro falla (no sólo el último)
+
+
+
 # --- Configuración inicial ---
 MAX="${1:-6}"            # Máximo por defecto (puede pasarse como argumento)
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # === CONFIGURACIÓN ===
 CONFIG_FILE="./.env"

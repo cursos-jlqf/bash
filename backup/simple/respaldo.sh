@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Cargar configuración desde archivo .env si existe
 CONFIG_FILE="./.env"
